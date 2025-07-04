@@ -1,0 +1,51 @@
+body {
+    background-color: #f3f4f6; /* Light gray background */
+    font-family: 'Arial', sans-serif; /* Font style */
+}
+
+.title {
+    text-align: center; /* Center the title */
+    margin-top: 20px; /* Space above the title */
+}
+
+.calculator {
+    max-width: 400px; /* Maximum width of the calculator */
+    margin: 20px auto; /* Center the calculator */
+    padding: 20px; /* Padding inside the calculator */
+    background-color: #ffffff; /* White background for the calculator */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.display {
+    font-size: 2em; /* Larger font for the display */
+    text-align: right; /* Right-align the display text */
+    padding: 10px; /* Padding inside the display */
+    border: 1px solid #e5e7eb; /* Light border */
+    border-radius: 5px; /* Rounded corners for the display */
+    background-color: #f9fafb; /* Slightly off-white background */
+    margin-bottom: 20px; /* Space below the display */
+}
+
+.button {
+    width: 80px; /* Fixed width for buttons */
+    height: 80px; /* Fixed height for buttons */
+    margin: 5px; /* Space around buttons */
+    font-size: 1.5em; /* Font size for button text */
+    border-radius: 5px; /* Rounded corners for buttons */
+    background-color: #3b82f6; /* Blue background for buttons */
+    color: white; /* White text color */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+}
+
+.memory-button {
+    background-color: #f59e0b; /* Yellow background for memory buttons */
+}
+
+.memory-button:hover {
+    background-color: #d97706; /* Darker yellow on hover */
+}
